@@ -18,9 +18,9 @@ const App = () => {
                 <Route exact path="/">
                   <Homepage/>
                 </Route>
-                <Route exact path="/exchanges">
+                {/* <Route exact path="/exchanges">
                   <Exchanges/>
-                </Route>
+                </Route> */}
                 <Route exact path="/cryptocurrencies">
                   <Cryptocurrencies/>
                 </Route>
@@ -40,7 +40,7 @@ const App = () => {
             </Typography.Title>
             <Space>
               <Link to="/">Home</Link>
-              <Link to="/exchanges">Exchanges</Link>
+              {/* <Link to="/exchanges">Exchanges</Link> */}
               <Link to="/news">News</Link>
             </Space>
           </div>
